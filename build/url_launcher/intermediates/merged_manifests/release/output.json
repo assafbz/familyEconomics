@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applicationId": "io.flutter.plugins.urllauncher",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "url_launcher-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/release/AndroidManifest.xml",
+      "properties": {
+        "packageId": "io.flutter.plugins.urllauncher",
+        "split": ""
+      }
+    }
+  ]
+}

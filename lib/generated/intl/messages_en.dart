@@ -1,0 +1,138 @@
+// DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
+// This is a library that provides messages for a en locale. All the
+// messages from the main program should be duplicated here with the same
+// function name.
+
+// Ignore issues from commonly used lints in this file.
+// ignore_for_file:unnecessary_brace_in_string_interps, unnecessary_new
+// ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
+// ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
+// ignore_for_file:unused_import, file_names
+
+import 'package:intl/intl.dart';
+import 'package:intl/message_lookup_by_library.dart';
+
+final messages = new MessageLookup();
+
+typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
+
+class MessageLookup extends MessageLookupByLibrary {
+  String get localeName => 'en';
+
+  final messages = _notInlinedMessages(_notInlinedMessages);
+  static _notInlinedMessages(_) => <String, Function> {
+    "all_family" : MessageLookupByLibrary.simpleMessage("All Family"),
+    "allowance" : MessageLookupByLibrary.simpleMessage("Allowance"),
+    "amount" : MessageLookupByLibrary.simpleMessage("Amount"),
+    "amount_validaton" : MessageLookupByLibrary.simpleMessage("Please fill amount"),
+    "app_title" : MessageLookupByLibrary.simpleMessage("Family Economy"),
+    "asset_amount" : MessageLookupByLibrary.simpleMessage("Asset Amount"),
+    "asset_name" : MessageLookupByLibrary.simpleMessage("Asset Name"),
+    "asset_name_validaton" : MessageLookupByLibrary.simpleMessage("Please fill asset name"),
+    "asset_type" : MessageLookupByLibrary.simpleMessage("Asset Type"),
+    "assets" : MessageLookupByLibrary.simpleMessage("Assets"),
+    "assets_info_banner" : MessageLookupByLibrary.simpleMessage("Grow your capital !"),
+    "bank_transfer" : MessageLookupByLibrary.simpleMessage("Bank Transfer"),
+    "car" : MessageLookupByLibrary.simpleMessage("Car"),
+    "car_insurance" : MessageLookupByLibrary.simpleMessage("Car Insurance"),
+    "cash" : MessageLookupByLibrary.simpleMessage("Cash"),
+    "cash_flow" : MessageLookupByLibrary.simpleMessage("Cash Flow"),
+    "cash_flow_banner" : MessageLookupByLibrary.simpleMessage("Make sure you are a profitable business"),
+    "category" : MessageLookupByLibrary.simpleMessage("Category"),
+    "check" : MessageLookupByLibrary.simpleMessage("Check"),
+    "credit_card" : MessageLookupByLibrary.simpleMessage("Credit Card"),
+    "disabled_insurance" : MessageLookupByLibrary.simpleMessage("Disabled Insurance"),
+    "dismiss" : MessageLookupByLibrary.simpleMessage("close"),
+    "edit_asset" : MessageLookupByLibrary.simpleMessage("Edit Asset"),
+    "edit_insurance" : MessageLookupByLibrary.simpleMessage("Edit Insurance"),
+    "expense" : MessageLookupByLibrary.simpleMessage("Expense"),
+    "expense_name" : MessageLookupByLibrary.simpleMessage("Expense Name"),
+    "expense_type" : MessageLookupByLibrary.simpleMessage("Expense Type"),
+    "expenses" : MessageLookupByLibrary.simpleMessage("Expenses"),
+    "facebook_login" : MessageLookupByLibrary.simpleMessage("Connect With Facebook"),
+    "food" : MessageLookupByLibrary.simpleMessage("Food"),
+    "foreign_exchange" : MessageLookupByLibrary.simpleMessage("Foreign Exchange"),
+    "gemel" : MessageLookupByLibrary.simpleMessage("Gemel"),
+    "goal_name" : MessageLookupByLibrary.simpleMessage("Goal Name"),
+    "goals_info_banner" : MessageLookupByLibrary.simpleMessage("Plan your goals for the upcoming year"),
+    "google_login" : MessageLookupByLibrary.simpleMessage("Connect With Google"),
+    "health_insurance" : MessageLookupByLibrary.simpleMessage("Health Insurance"),
+    "house" : MessageLookupByLibrary.simpleMessage("House"),
+    "household" : MessageLookupByLibrary.simpleMessage("Household"),
+    "income" : MessageLookupByLibrary.simpleMessage("Income"),
+    "income_name" : MessageLookupByLibrary.simpleMessage("Income Name"),
+    "income_type" : MessageLookupByLibrary.simpleMessage("Income Type"),
+    "incomes" : MessageLookupByLibrary.simpleMessage("Incomes"),
+    "insurance" : MessageLookupByLibrary.simpleMessage("Insurance"),
+    "insurance_company" : MessageLookupByLibrary.simpleMessage("Insurance Company"),
+    "insurance_info_banner" : MessageLookupByLibrary.simpleMessage("Keep track of your insurances"),
+    "insurance_name" : MessageLookupByLibrary.simpleMessage("Insurance Name"),
+    "insurance_type" : MessageLookupByLibrary.simpleMessage("Insurance Type"),
+    "insurances" : MessageLookupByLibrary.simpleMessage("Insurances"),
+    "interest_rate" : MessageLookupByLibrary.simpleMessage("Interest Rate"),
+    "invesment_account" : MessageLookupByLibrary.simpleMessage("Investment Account"),
+    "kids" : MessageLookupByLibrary.simpleMessage("Kids"),
+    "liabilities" : MessageLookupByLibrary.simpleMessage("Liabilities"),
+    "liabilities_info_banner" : MessageLookupByLibrary.simpleMessage("Reduce your liabilities"),
+    "liability_amount" : MessageLookupByLibrary.simpleMessage("Liability Amount"),
+    "liability_amount_validaton" : MessageLookupByLibrary.simpleMessage("Please fill liability amount"),
+    "liability_name" : MessageLookupByLibrary.simpleMessage("Liability Name"),
+    "liability_name_validaton" : MessageLookupByLibrary.simpleMessage("Please fill liability name"),
+    "liability_type" : MessageLookupByLibrary.simpleMessage("Liability Type"),
+    "life_insurance" : MessageLookupByLibrary.simpleMessage("Life Insurance"),
+    "liquid" : MessageLookupByLibrary.simpleMessage("liquid"),
+    "liquidity" : MessageLookupByLibrary.simpleMessage("liquidity"),
+    "liquidity_explain" : MessageLookupByLibrary.simpleMessage("can you sell or retrieve the asset value immediately?"),
+    "loan" : MessageLookupByLibrary.simpleMessage("Loan"),
+    "loan_name" : MessageLookupByLibrary.simpleMessage("Loan Name"),
+    "loan_type" : MessageLookupByLibrary.simpleMessage("Loan Type"),
+    "loans" : MessageLookupByLibrary.simpleMessage("Loans"),
+    "loans_info_banner" : MessageLookupByLibrary.simpleMessage("Track your loans bargain your interest rate"),
+    "log_out" : MessageLookupByLibrary.simpleMessage("Log Out"),
+    "luxury" : MessageLookupByLibrary.simpleMessage("Luxury"),
+    "manager_insurance" : MessageLookupByLibrary.simpleMessage("Manager Insurance"),
+    "me_and_my_spouse" : MessageLookupByLibrary.simpleMessage("Me And My Spouse"),
+    "me_and_the_kids" : MessageLookupByLibrary.simpleMessage("Me And The Kids"),
+    "media" : MessageLookupByLibrary.simpleMessage("Media"),
+    "monthly_amount" : MessageLookupByLibrary.simpleMessage("Monthly Amount"),
+    "monthly_payment" : MessageLookupByLibrary.simpleMessage("Monthly Payment"),
+    "monthly_profit" : MessageLookupByLibrary.simpleMessage("Monthly Profit"),
+    "mortgage" : MessageLookupByLibrary.simpleMessage("Mortgage"),
+    "net_worth" : MessageLookupByLibrary.simpleMessage("Net Worth"),
+    "net_worth_banner" : MessageLookupByLibrary.simpleMessage("Enlarging your net worth will allow you to achieve your goals and reach financial freedom"),
+    "non_liquid" : MessageLookupByLibrary.simpleMessage("non liquid"),
+    "not_yielding" : MessageLookupByLibrary.simpleMessage("Non Yielding"),
+    "only_me" : MessageLookupByLibrary.simpleMessage("Only Me"),
+    "only_my_spouse" : MessageLookupByLibrary.simpleMessage("Only My Spouse"),
+    "only_the_kids" : MessageLookupByLibrary.simpleMessage("Only The Kids"),
+    "osh" : MessageLookupByLibrary.simpleMessage("Cash Account"),
+    "payments_left" : MessageLookupByLibrary.simpleMessage("Payments Left"),
+    "pension" : MessageLookupByLibrary.simpleMessage("Pension"),
+    "profit" : MessageLookupByLibrary.simpleMessage("Profit"),
+    "purpose_free" : MessageLookupByLibrary.simpleMessage("Purpose Free"),
+    "salary" : MessageLookupByLibrary.simpleMessage("Salary"),
+    "save" : MessageLookupByLibrary.simpleMessage("Save"),
+    "savings" : MessageLookupByLibrary.simpleMessage("Savings"),
+    "savings_account" : MessageLookupByLibrary.simpleMessage("Savings Account"),
+    "settings" : MessageLookupByLibrary.simpleMessage("Settings"),
+    "sign_in" : MessageLookupByLibrary.simpleMessage("Sign In"),
+    "standing_order" : MessageLookupByLibrary.simpleMessage("Standing Order"),
+    "suggestions" : MessageLookupByLibrary.simpleMessage("Suggestions"),
+    "suggestions_info_banner" : MessageLookupByLibrary.simpleMessage("Act upon relevant offers"),
+    "teeth_insurance" : MessageLookupByLibrary.simpleMessage("Teeth Insurance"),
+    "title" : MessageLookupByLibrary.simpleMessage("Family Economy"),
+    "total_loan_amount" : MessageLookupByLibrary.simpleMessage("Total Loan Amount"),
+    "total_net_worth" : MessageLookupByLibrary.simpleMessage("Total Net Worth"),
+    "transportation" : MessageLookupByLibrary.simpleMessage("Transportation"),
+    "upcoming_year_goals" : MessageLookupByLibrary.simpleMessage("Upcoming Year Goals"),
+    "update" : MessageLookupByLibrary.simpleMessage("Update"),
+    "waiting_suggestions" : MessageLookupByLibrary.simpleMessage("Waiting for you to act suggestions"),
+    "what_more" : MessageLookupByLibrary.simpleMessage("Goals & More"),
+    "who_is_insured" : MessageLookupByLibrary.simpleMessage("Who Is Insured"),
+    "work_fund" : MessageLookupByLibrary.simpleMessage("Work Fund"),
+    "work_insurance" : MessageLookupByLibrary.simpleMessage("Work Insurance"),
+    "yielding" : MessageLookupByLibrary.simpleMessage("yielding"),
+    "yielding_asset" : MessageLookupByLibrary.simpleMessage("Yielding Asset"),
+    "yielding_explain" : MessageLookupByLibrary.simpleMessage("does this asset yield profits?")
+  };
+}

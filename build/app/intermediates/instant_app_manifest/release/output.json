@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.assafbz.familyEconomics",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 5,
+        "versionName": "1.0.0",
+        "outputFile": "app-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.assafbz.familyEconomics",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

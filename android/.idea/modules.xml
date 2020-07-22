@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882555214/cloud_firestore.iml" filepath="$PROJECT_DIR$/.idea/modules/882555214/cloud_firestore.iml" group="android/cloud_firestore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1936567234/firebase_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/1936567234/firebase_analytics.iml" group="android/firebase_analytics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1540273684/firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-1540273684/firebase_auth.iml" group="android/firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1556951726/firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/1556951726/firebase_core.iml" group="android/firebase_core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1223509418/flutter_facebook_login.iml" filepath="$PROJECT_DIR$/.idea/modules/-1223509418/flutter_facebook_login.iml" group="android/flutter_facebook_login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1466681839/flutter_webview_plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/-1466681839/flutter_webview_plugin.iml" group="android/flutter_webview_plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-156668469/google_sign_in.iml" filepath="$PROJECT_DIR$/.idea/modules/-156668469/google_sign_in.iml" group="android/google_sign_in" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-405604149/shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/-405604149/shared_preferences.iml" group="android/shared_preferences" />
+    </modules>
+  </component>
+</project>

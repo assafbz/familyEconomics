@@ -1,0 +1,70 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib/main.dart -d chrome --track-widget-creation --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url -d web server --web-port 8000
+
+## exception
+
+StateError: Bad state: Cannot add event after closing
+
+```
+#0      _StreamController.add (dart:async/stream_controller.dart:596:24)
+#1      _StreamSinkWrapper.add (dart:async/stream_controller.dart:876:13)
+#2      AppConnection.runMain (package:dwds/src/connections/app_connection.dart:32:22)
+#3      WebDevFS.connect.<anonymous closure> (package:flutter_tools/src/build_runner/devfs_web.dart:613:25)
+<asynchronous suspension>
+#4      WebDevFS.connect.<anonymous closure> (package:flutter_tools/src/build_runner/devfs_web.dart)
+#5      _rootRunUnary (dart:async/zone.dart:1198:47)
+#6      _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#7      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1005:7)
+#8      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:357:11)
+#9      _DelayedData.perform (dart:async/stream_impl.dart:611:14)
+#10     _StreamImplEvents.handleNext (dart:async/stream_impl.dart:730:11)
+#11     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:687:7)
+#12     _rootRun (dart:async/zone.dart:1182:47)
+#13     _CustomZone.run (dart:async/zone.dart:1093:19)
+#14     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#15     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#16     _rootRun (dart:async/zone.dart:1190:13)
+#17     _CustomZone.run (dart:async/zone.dart:1093:19)
+#18     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#19     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#20     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#21     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#22     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#23     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 1.19.0-4.3.pre, on Linux, locale he_IL.UTF-8)
+    • Flutter version 1.19.0-4.3.pre at /home/assafbz/flutter
+    • Framework revision 8fe7655ed2 (3 weeks ago), 2020-07-01 14:31:18 -0700
+    • Engine revision 9a28c3bcf4
+    • Dart version 2.9.0 (build 2.9.0-14.1.beta)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.1)
+    • Android SDK at /home/assafbz/Android/Sdk
+    • Platform android-29, build-tools 30.0.1
+    • Java binary at: /home/assafbz/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • CHROME_EXECUTABLE = /usr/bin/chromium
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at /home/assafbz/android-studio
+    • Flutter plugin version 47.1.2
+    • Dart plugin version 193.7361
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+
+[✓] Connected device (2 available)
+    • Web Server • web-server • web-javascript • Flutter Tools
+    • Chrome     • chrome     • web-javascript • Chromium 84.0.4147.89 Arch Linux
+
+• No issues found!
+```

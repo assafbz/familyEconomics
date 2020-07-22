@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">601269650055-1manhrqg77q3mb0cq6qtd22rmiivkmjo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://familyeconomy-73ace.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">601269650055</string>
+    <string name="google_api_key" translatable="false">AIzaSyAP9KAwWOT_sVcW4SG2Fzyf8H2nKoW9eKc</string>
+    <string name="google_app_id" translatable="false">1:601269650055:android:0800caa5f808823793ee22</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAP9KAwWOT_sVcW4SG2Fzyf8H2nKoW9eKc</string>
+    <string name="google_storage_bucket" translatable="false">familyeconomy-73ace.appspot.com</string>
+    <string name="project_id" translatable="false">familyeconomy-73ace</string>
+</resources>

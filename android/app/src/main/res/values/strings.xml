@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Family Economics</string>
+    <string name="facebook_app_id">762388194498960</string>
+    <string name="fb_login_protocol_scheme">fb762388194498960</string>
+</resources>
